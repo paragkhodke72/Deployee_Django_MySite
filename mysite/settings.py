@@ -25,7 +25,7 @@ SECRET_KEY = 's9#vl5bfs@c%*hozkeuelkfho)&fx7d_m)37me#=c8e%kso*yk'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1','techinicalblogparag.herokuapp.com']
 
 
 # Application definition
@@ -117,7 +117,7 @@ USE_TZ = True
 
 LOGIN_REDIRECT_URL = '/'
 
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
 
